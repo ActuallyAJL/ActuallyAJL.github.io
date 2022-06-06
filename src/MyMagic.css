@@ -1,0 +1,152 @@
+.auth_body {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container--auth {
+  background-color: rgba(43, 54, 72, 0.8);
+  border-radius: 10px;
+  padding: 30px;
+  width: 66vh;
+  height: 94vh;
+}
+
+.container--auth h1 {
+  top: 100px;
+  font-size: 64px;
+}
+
+.input_auth {
+  border-radius: 10px;
+  width: 60vh;
+  height: 25px;
+}
+
+.button_auth {
+  border-radius: 10px;
+  width: 60vh;
+  height: 25px;
+  cursor: pointer;
+}
+
+.fieldset_auth {
+  border: hidden;
+}
+
+.dialog {
+  min-width: 15rem;
+  min-height: 5rem;
+  border-radius: 10px;
+}
+
+.card_card {
+  max-width: 10%;
+  min-width: 100px;
+  margin: 15px;
+  background-color: rgba(43, 54, 72, 0.8);
+  border-radius: 10px;
+}
+
+.card_card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card_detail_card {
+  max-width: 66vh;
+  margin: auto;
+  min-height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(245, 52, 4, 0.75) 100%
+  );
+  border-radius: 10px;
+}
+
+.card_detail_header {
+  display: flex;
+}
+
+.card_detail_info {
+  width: 50%;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.card_detail_poster img {
+  max-height: 50vh;
+  border-top-left-radius: 10px;
+}
+
+.card_list {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 170px;
+  overflow-y: auto;
+}
+
+.navbar {
+  background-color: rgba(43, 54, 72, 0.8);
+  position: fixed;
+  height: 100%;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.nav-item {
+  margin: 5px;
+  border-radius: 10px;
+  width: 150px;
+  margin-left: -35px;
+}
+
+.nav-item button {
+  border: inherit;
+  width: inherit;
+  margin-bottom: 20px;
+  font: inherit;
+  text-align: inherit;
+  height: inherit;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: rgb(86, 153, 216);
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.nav-pills {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  flex-direction: column;
+}
+
+.review_card {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(43, 54, 72, 0.8);
+  border-radius: 10px;
+  padding-left: 10px;
+}
